@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import {
   Card,
   CardContent,
@@ -10,13 +9,10 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar";
 import StatsCard from "@/components/DashComps/StatsCard";
 import TransactionList from "@/components/DashComps/TransactionList";
 
-=======
->>>>>>> 943d384c0b3e931e95380c96ad6de3fc20a3ef4d
 export default function Dashboard() {
   return (
     <>
       <section>Dashboard</section>
-<<<<<<< HEAD
 
       <div className="p-8 bg-slate-950-50 min-h-screen">
         <h1 className="text-3xl font-bold mb-8">Finance Dashboard</h1>
@@ -67,8 +63,6 @@ export default function Dashboard() {
           </CardContent>
         </Card>
       </div>
-=======
->>>>>>> 943d384c0b3e931e95380c96ad6de3fc20a3ef4d
     </>
   );
 }

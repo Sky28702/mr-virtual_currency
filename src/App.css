@@ -1,5 +1,4 @@
 @import "tailwindcss";
-<<<<<<< HEAD
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
@@ -135,19 +134,18 @@ body {
         @apply bg-background text-foreground;
         @apply bg-background text-foreground;
     }
-=======
+}
 
 :root {
-  --font-rubik: "Rubik", sans-serif;
-  /* --background: #ffffff;
+    --font-rubik: "Rubik", sans-serif;
+    /* --background: #ffffff;
   --foreground: #171717; */
 }
 
 body {
-  font-family: var(--font-rubik);
-  background-color: oklch(12.9% 0.042 264.695);
-  color: white;
-  max-width: 1440px;
-  margin: 0 auto;
->>>>>>> 943d384c0b3e931e95380c96ad6de3fc20a3ef4d
+    font-family: var(--font-rubik);
+    background-color: oklch(12.9% 0.042 264.695);
+    color: white;
+    max-width: 1440px;
+    margin: 0 auto;
 }

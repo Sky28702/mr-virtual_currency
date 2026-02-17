@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
 :root {
-<<<<<<< HEAD
     --font-rubik: "Rubik", sans-serif;
     --background: oklch(12.9% 0.042 264.695);
     /* --foreground: #171717; */
@@ -11,15 +10,14 @@ body {
     font-family: var(--font-rubik);
 
     margin: 0 auto;
-=======
-  --font-rubik: "Rubik", sans-serif;
-  --background: oklch(12.9% 0.042 264.695);
-  /* --foreground: #171717; */
+
+    --font-rubik: "Rubik", sans-serif;
+    --background: oklch(12.9% 0.042 264.695);
+    /* --foreground: #171717; */
 }
 
 body {
-  font-family: var(--font-rubik);
+    font-family: var(--font-rubik);
 
-  margin: 0 auto;
->>>>>>> 943d384c0b3e931e95380c96ad6de3fc20a3ef4d
+    margin: 0 auto;
 }
