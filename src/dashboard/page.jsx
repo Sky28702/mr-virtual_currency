@@ -14,8 +14,6 @@ export default function Dashboard() {
   return (
     <>
       <Layout>
-        <section>Dashboard</section>
-
         <div className="p-8 bg-slate-950-50 min-h-screen">
           <h1 className="text-3xl font-bold mb-8">Finance Dashboard</h1>
 
