@@ -18,7 +18,7 @@ export default function Profile() {
         <section className="mb-4 p-4 flex flex-col">
           <label className="mb-2 font-semibold text-[18px]">Name</label>
           <input
-            value={`Jhon Doe`}
+            defaultValue={`Jhon Doe`}
             type="text"
             className="px-4 py-2 border border-accent-foreground outline-none mb-1 bg-accent-foreground rounded-[10px]"
           ></input>

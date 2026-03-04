@@ -13,7 +13,7 @@ export default function Transaction() {
           <input
             placeholder="Receiver 's Address"
             type="text"
-            className="text-center p-4 min-w-full  text-[oklch(0.556_0_0)] bg-[oklch(0.97_0_0)] rounded-2xl active:outline-none focus:outline-none mb-8"
+            className="text-center p-4 min-w-full  text-[oklch(0.556_0_0)] bg-accent-foreground rounded-2xl active:outline-none focus:outline-none mb-8"
           ></input>
 
           <div className="  min-w-full rounded-2xl flex-col space-y-6 items-center p-4">
@@ -23,7 +23,7 @@ export default function Transaction() {
               <span className="font-medium text-2xl">Amount:</span>
               <input
                 type="number"
-                className=" p-4 min-w-8  bg-[oklch(0.97_0_0)] rounded-2xl outline-none text-[oklch(0.556_0_0)] [appearance:textfield] 
+                className=" p-4 min-w-8  bg-accent-foreground rounded-2xl outline-none text-[oklch(0.556_0_0)] [appearance:textfield] 
          [&::-webkit-outer-spin-button]:appearance-none
          [&::-webkit-inner-spin-button]:appearance-none "
               ></input>
@@ -36,7 +36,7 @@ export default function Transaction() {
                 type="text"
                 value={`- 02%`}
                 readOnly
-                className=" p-4 min-w-8  bg-[oklch(0.97_0_0)] rounded-2xl outline-none text-[oklch(0.556_0_0)]   cursor-context-menu
+                className=" p-4 min-w-8  bg-accent-foreground rounded-2xl outline-none text-[oklch(0.556_0_0)]   cursor-context-menu
            "
               ></input>
             </div>
@@ -49,7 +49,7 @@ export default function Transaction() {
                 type="text"
                 value={`2040`}
                 readOnly
-                className=" p-4 min-w-8  bg-[oklch(0.97_0_0)] rounded-2xl outline-none text-[oklch(0.556_0_0)] cursor-context-menu
+                className=" p-4 min-w-8  bg-accent-foreground rounded-2xl outline-none text-[oklch(0.556_0_0)] cursor-context-menu
            "
               ></input>
             </div>
